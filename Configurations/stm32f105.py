@@ -17,7 +17,7 @@
 #
 from cmsis_svd.parser import SVDParser
 
-parser = SVDParser.for_packaged_svd('STMicro', 'STM32F072x.svd')
+parser = SVDParser.for_packaged_svd('STMicro', 'STM32F105xx.svd')
 allregs = []
 blocksize = 0x400 - 1
 
